@@ -20,3 +20,8 @@ def using_shift(array)
   first = array.shift
   return first
 end
+
+def shift_with_args(array)
+  first_two = array.shift(2)
+  return first_two
+end
